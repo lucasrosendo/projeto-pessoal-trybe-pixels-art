@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#color-palette {
+  display: table-row;
+}
+.color {
+  display: table-cell;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
