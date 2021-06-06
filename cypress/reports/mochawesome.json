@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 0,
-    "start": "2021-06-05T23:20:31.083Z",
-    "end": "2021-06-05T23:20:33.460Z",
-    "duration": 2377,
+    "start": "2021-06-06T02:52:12.948Z",
+    "end": "2021-06-06T02:52:15.141Z",
+    "duration": 2193,
     "testsRegistered": 41,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "22db820a-1d13-4cdb-a4bb-f9bbe456f07f",
+      "uuid": "0ff176d3-e452-4ff6-bff2-ac27f843510d",
       "title": "",
       "fullFile": "cypress/integration/project.spec.js",
       "file": "cypress/integration/project.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "94728554-084e-4c13-b425-03a7d1977e17",
+          "uuid": "4fe1331f-67cc-4867-aa4f-50655dca0f95",
           "title": "1 - Adicione à página o título \"Paleta de Cores\".",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "fullTitle": "1 - Adicione à página o título \"Paleta de Cores\". Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "timedOut": null,
-              "duration": 193,
+              "duration": 206,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -48,11 +48,11 @@
               "code": "cy.get('h1#title').should('contain.text', 'Paleta de Cores');",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "43c224b9-836b-4433-98a3-745843c28ecb",
-              "parentUUID": "94728554-084e-4c13-b425-03a7d1977e17",
+              "uuid": "aa44f86b-ecd5-48fa-af2b-0978fe7e9f54",
+              "parentUUID": "4fe1331f-67cc-4867-aa4f-50655dca0f95",
               "isHook": false,
               "skipped": false
             }
@@ -60,17 +60,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "43c224b9-836b-4433-98a3-745843c28ecb"
+            "aa44f86b-ecd5-48fa-af2b-0978fe7e9f54"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 193,
+          "duration": 206,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "d0016114-9655-410e-98c8-8f5fc6049a31",
+          "uuid": "ad1ad9a2-d8ef-47b1-b0f5-e762a92ee46a",
           "title": "2 - Adicione à página uma paleta de quatro cores distintas.",
           "fullFile": "",
           "file": "",
@@ -81,7 +81,7 @@
               "title": "A paleta de cores deve ser um elemento com `id` denominado `color-palette`",
               "fullTitle": "2 - Adicione à página uma paleta de quatro cores distintas. A paleta de cores deve ser um elemento com `id` denominado `color-palette`",
               "timedOut": null,
-              "duration": 154,
+              "duration": 195,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -91,11 +91,11 @@
               "code": "cy.get('#color-palette').should('be.visible');",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "9cfe68d0-1a90-429f-89a4-4b0b4e0d7d6c",
-              "parentUUID": "d0016114-9655-410e-98c8-8f5fc6049a31",
+              "uuid": "736a9c5a-9fcb-46ce-ab08-feb51664635a",
+              "parentUUID": "ad1ad9a2-d8ef-47b1-b0f5-e762a92ee46a",
               "isHook": false,
               "skipped": false
             },
@@ -112,8 +112,8 @@
               "context": null,
               "code": "cy.get('.color').should('have.length', 4).then(function (colors) {\n  for (var i = 0; i < colors.length; i++) {\n    cy.wrap(colors[i]).should('be.visible');\n  }\n});",
               "err": {},
-              "uuid": "7595d73a-e5f5-495d-8fd3-c8cce4a28571",
-              "parentUUID": "d0016114-9655-410e-98c8-8f5fc6049a31",
+              "uuid": "aa6fc292-e68e-4c3f-9e89-2ab7bcb0a910",
+              "parentUUID": "ad1ad9a2-d8ef-47b1-b0f5-e762a92ee46a",
               "isHook": false,
               "skipped": true
             },
@@ -130,8 +130,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).should('have.class', 'color').and('not.have.css', 'background-color', WHITE);\n  cy.wrap(color).should('have.css', 'background-color');\n});",
               "err": {},
-              "uuid": "527cf8e0-1973-4a28-abf6-227b4426366e",
-              "parentUUID": "d0016114-9655-410e-98c8-8f5fc6049a31",
+              "uuid": "9d8844d9-c43b-41ef-b405-a58acbe37bbe",
+              "parentUUID": "ad1ad9a2-d8ef-47b1-b0f5-e762a92ee46a",
               "isHook": false,
               "skipped": true
             },
@@ -148,8 +148,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).and('have.css', 'border', \"1px solid \".concat(BLACK)).and('have.class', 'color');\n});",
               "err": {},
-              "uuid": "255608e2-3f35-463c-95ae-de1d64804862",
-              "parentUUID": "d0016114-9655-410e-98c8-8f5fc6049a31",
+              "uuid": "2c0529cf-4d09-4ef0-a72a-67fb271ade85",
+              "parentUUID": "ad1ad9a2-d8ef-47b1-b0f5-e762a92ee46a",
               "isHook": false,
               "skipped": true
             },
@@ -166,8 +166,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  for (var index = 1; index < colors.length; index += 1) {\n    var currentColor = colors[index];\n    var previousColor = colors[index - 1];\n    cy.wrap(currentColor).should('be.onTheRightOf', previousColor).and('be.horizontallyAlignedWith', previousColor);\n  }\n});",
               "err": {},
-              "uuid": "759f3912-e326-4290-8f6d-0b507ba7adc4",
-              "parentUUID": "d0016114-9655-410e-98c8-8f5fc6049a31",
+              "uuid": "c54a4373-e26d-4947-90c3-3472e60439ee",
+              "parentUUID": "ad1ad9a2-d8ef-47b1-b0f5-e762a92ee46a",
               "isHook": false,
               "skipped": true
             },
@@ -184,8 +184,8 @@
               "context": null,
               "code": "cy.get('h1#title').then(function (title) {\n  cy.get('#color-palette').should('be.belowOf', title);\n});",
               "err": {},
-              "uuid": "17a8aec7-21c9-4a3d-84e0-477d1288e6bf",
-              "parentUUID": "d0016114-9655-410e-98c8-8f5fc6049a31",
+              "uuid": "ecd76c23-d918-4d27-aac8-7ed91c369034",
+              "parentUUID": "ad1ad9a2-d8ef-47b1-b0f5-e762a92ee46a",
               "isHook": false,
               "skipped": true
             },
@@ -202,8 +202,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var allColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  cy.log(allColors);\n  var uniqColors = (0, _toConsumableArray2[\"default\"])(new Set(allColors));\n  cy.log(uniqColors);\n  expect(allColors.length).to.eq(uniqColors.length);\n});",
               "err": {},
-              "uuid": "8aca72f9-fbd6-46eb-ad24-d0b668c73af3",
-              "parentUUID": "d0016114-9655-410e-98c8-8f5fc6049a31",
+              "uuid": "1bc32400-3d63-4658-a02e-4cbaab4493b4",
+              "parentUUID": "ad1ad9a2-d8ef-47b1-b0f5-e762a92ee46a",
               "isHook": false,
               "skipped": true
             }
@@ -211,24 +211,24 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "9cfe68d0-1a90-429f-89a4-4b0b4e0d7d6c"
+            "736a9c5a-9fcb-46ce-ab08-feb51664635a"
           ],
           "pending": [],
           "skipped": [
-            "7595d73a-e5f5-495d-8fd3-c8cce4a28571",
-            "527cf8e0-1973-4a28-abf6-227b4426366e",
-            "255608e2-3f35-463c-95ae-de1d64804862",
-            "759f3912-e326-4290-8f6d-0b507ba7adc4",
-            "17a8aec7-21c9-4a3d-84e0-477d1288e6bf",
-            "8aca72f9-fbd6-46eb-ad24-d0b668c73af3"
+            "aa6fc292-e68e-4c3f-9e89-2ab7bcb0a910",
+            "9d8844d9-c43b-41ef-b405-a58acbe37bbe",
+            "2c0529cf-4d09-4ef0-a72a-67fb271ade85",
+            "c54a4373-e26d-4947-90c3-3472e60439ee",
+            "ecd76c23-d918-4d27-aac8-7ed91c369034",
+            "1bc32400-3d63-4658-a02e-4cbaab4493b4"
           ],
-          "duration": 154,
+          "duration": 195,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "47302610-14bb-4aa2-9566-0ce693ccccfe",
+          "uuid": "d60a6d15-b05b-46eb-8a00-17ad6523787f",
           "title": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores.",
           "fullFile": "",
           "file": "",
@@ -239,7 +239,7 @@
               "title": "Verifica se a primeira cor da paleta é preta",
               "fullTitle": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores. Verifica se a primeira cor da paleta é preta",
               "timedOut": null,
-              "duration": 210,
+              "duration": 174,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -249,11 +249,11 @@
               "code": "cy.get('.color').first().should('have.css', 'background-color', BLACK);",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "9cce0ef5-8b9d-45cf-9b0d-e30df0e02fde",
-              "parentUUID": "47302610-14bb-4aa2-9566-0ce693ccccfe",
+              "uuid": "e38a5173-82e0-4a31-90fe-e302ae23593d",
+              "parentUUID": "d60a6d15-b05b-46eb-8a00-17ad6523787f",
               "isHook": false,
               "skipped": false
             },
@@ -270,8 +270,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(1).should('have.css', 'background-color');\ncy.get('.color').eq(2).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(2).should('have.css', 'background-color');\ncy.get('.color').eq(3).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(3).should('have.css', 'background-color');",
               "err": {},
-              "uuid": "69518700-77a0-4b44-98e1-f9958e2d9f05",
-              "parentUUID": "47302610-14bb-4aa2-9566-0ce693ccccfe",
+              "uuid": "7201bd26-a8fe-4ba7-96f5-7bf14f5b98b5",
+              "parentUUID": "d60a6d15-b05b-46eb-8a00-17ad6523787f",
               "isHook": false,
               "skipped": true
             }
@@ -279,19 +279,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "9cce0ef5-8b9d-45cf-9b0d-e30df0e02fde"
+            "e38a5173-82e0-4a31-90fe-e302ae23593d"
           ],
           "pending": [],
           "skipped": [
-            "69518700-77a0-4b44-98e1-f9958e2d9f05"
+            "7201bd26-a8fe-4ba7-96f5-7bf14f5b98b5"
           ],
-          "duration": 210,
+          "duration": 174,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "bf5dca4a-2d6e-4837-83c2-490eeea3824f",
+          "uuid": "cf5d1097-9bfb-4de6-a165-9c0fc8f468a2",
           "title": "4 - Adicione à página um quadro de pixels, com 25 pixels.",
           "fullFile": "",
           "file": "",
@@ -302,7 +302,7 @@
               "title": "Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "fullTitle": "4 - Adicione à página um quadro de pixels, com 25 pixels. Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "timedOut": null,
-              "duration": 170,
+              "duration": 201,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -312,11 +312,11 @@
               "code": "cy.get('#pixel-board').should('be.visible');",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "c1e7c313-3343-42f6-85e6-1aa7f6a45246",
-              "parentUUID": "bf5dca4a-2d6e-4837-83c2-490eeea3824f",
+              "uuid": "53237eef-9471-4e49-99a8-0d0ae706b941",
+              "parentUUID": "cf5d1097-9bfb-4de6-a165-9c0fc8f468a2",
               "isHook": false,
               "skipped": false
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "a473db8f-1bb6-4478-b004-cdeed5609581",
-              "parentUUID": "bf5dca4a-2d6e-4837-83c2-490eeea3824f",
+              "uuid": "5988eb6b-035b-4a3e-9a64-c4e220a1ef50",
+              "parentUUID": "cf5d1097-9bfb-4de6-a165-9c0fc8f468a2",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "50d4bdba-0978-4a42-9156-b6eb81063602",
-              "parentUUID": "bf5dca4a-2d6e-4837-83c2-490eeea3824f",
+              "uuid": "39740d2a-c832-47db-a973-2c4f931898ec",
+              "parentUUID": "cf5d1097-9bfb-4de6-a165-9c0fc8f468a2",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "a8562db1-76a8-40cf-b0c4-a80b27dd4e28",
-              "parentUUID": "bf5dca4a-2d6e-4837-83c2-490eeea3824f",
+              "uuid": "ef3cabd5-b98d-4411-85e4-bad301eb9cfc",
+              "parentUUID": "cf5d1097-9bfb-4de6-a165-9c0fc8f468a2",
               "isHook": false,
               "skipped": true
             }
@@ -378,21 +378,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "c1e7c313-3343-42f6-85e6-1aa7f6a45246"
+            "53237eef-9471-4e49-99a8-0d0ae706b941"
           ],
           "pending": [],
           "skipped": [
-            "a473db8f-1bb6-4478-b004-cdeed5609581",
-            "50d4bdba-0978-4a42-9156-b6eb81063602",
-            "a8562db1-76a8-40cf-b0c4-a80b27dd4e28"
+            "5988eb6b-035b-4a3e-9a64-c4e220a1ef50",
+            "39740d2a-c832-47db-a973-2c4f931898ec",
+            "ef3cabd5-b98d-4411-85e4-bad301eb9cfc"
           ],
-          "duration": 170,
+          "duration": 201,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "16fde11e-7bae-4796-9569-43f49ae4d488",
+          "uuid": "6d45b8e8-60d7-44de-8fd0-815da11d7a34",
           "title": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.",
           "fullFile": "",
           "file": "",
@@ -403,7 +403,7 @@
               "title": "Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "fullTitle": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel. Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "timedOut": null,
-              "duration": 194,
+              "duration": 208,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -413,11 +413,11 @@
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n}).and(function (pixels) {\n  var rows = chunk(pixels, 5);\n  rows.forEach(function (row) {\n    for (var index = 1; index < row.length; index += 1) {\n      var current = pixels[index];\n      var previous = pixels[index - 1];\n      cy.wrap(current).should('be.onTheRightOf', previous).and('be.horizontallyAlignedWith', previous);\n    }\n  });\n  for (var index = 1; index < 5; index += 1) {\n    expect(pixels[index * 5]).to.be.belowOf(pixels[(index - 1) * 5]);\n  }\n});",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "1bf8dfce-d433-41e8-9840-bc395c68cc72",
-              "parentUUID": "16fde11e-7bae-4796-9569-43f49ae4d488",
+              "uuid": "e80c9d81-66a9-41df-9143-321560253d64",
+              "parentUUID": "6d45b8e8-60d7-44de-8fd0-815da11d7a34",
               "isHook": false,
               "skipped": false
             },
@@ -434,8 +434,8 @@
               "context": null,
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'height', '40px').and('have.css', 'width', '40px').and('have.css', 'border', \"1px solid \".concat(BLACK));\n});",
               "err": {},
-              "uuid": "0909cdd5-bf16-463d-9fba-1baa25091562",
-              "parentUUID": "16fde11e-7bae-4796-9569-43f49ae4d488",
+              "uuid": "5cfc04c2-9c55-4330-9dd6-b83b851cbd1a",
+              "parentUUID": "6d45b8e8-60d7-44de-8fd0-815da11d7a34",
               "isHook": false,
               "skipped": true
             }
@@ -443,19 +443,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "1bf8dfce-d433-41e8-9840-bc395c68cc72"
+            "e80c9d81-66a9-41df-9143-321560253d64"
           ],
           "pending": [],
           "skipped": [
-            "0909cdd5-bf16-463d-9fba-1baa25091562"
+            "5cfc04c2-9c55-4330-9dd6-b83b851cbd1a"
           ],
-          "duration": 194,
+          "duration": 208,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4fe707c1-2c2b-4172-89d1-44a10a4745c4",
+          "uuid": "aba2ad7d-7545-4c4b-b65d-ab0b4ebda770",
           "title": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels",
           "fullFile": "",
           "file": "",
@@ -466,7 +466,7 @@
               "title": "Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "fullTitle": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "timedOut": null,
-              "duration": 209,
+              "duration": 176,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -476,11 +476,11 @@
               "code": "cy.get('.selected').first().should('have.css', 'background-color', BLACK);",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "19718a21-0416-484a-acfb-49a790e8bffa",
-              "parentUUID": "4fe707c1-2c2b-4172-89d1-44a10a4745c4",
+              "uuid": "e1c06c6d-d4e7-4c6a-83f9-b211cc643ae0",
+              "parentUUID": "aba2ad7d-7545-4c4b-b65d-ab0b4ebda770",
               "isHook": false,
               "skipped": false
             },
@@ -497,8 +497,8 @@
               "context": null,
               "code": "cy.get('.color:not(:first-child)').each(function (color) {\n  cy.wrap(color).should('not.have.class', 'selected');\n});",
               "err": {},
-              "uuid": "1337ea38-eaf0-4bb6-a49a-67fb0f572361",
-              "parentUUID": "4fe707c1-2c2b-4172-89d1-44a10a4745c4",
+              "uuid": "31879f9d-d27b-46e8-a188-622e5f73edb9",
+              "parentUUID": "aba2ad7d-7545-4c4b-b65d-ab0b4ebda770",
               "isHook": false,
               "skipped": true
             }
@@ -506,19 +506,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "19718a21-0416-484a-acfb-49a790e8bffa"
+            "e1c06c6d-d4e7-4c6a-83f9-b211cc643ae0"
           ],
           "pending": [],
           "skipped": [
-            "1337ea38-eaf0-4bb6-a49a-67fb0f572361"
+            "31879f9d-d27b-46e8-a188-622e5f73edb9"
           ],
-          "duration": 209,
+          "duration": 176,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "1980b56f-b4ce-4960-b678-e74dfdcd3f81",
+          "uuid": "29ade7ba-d838-4e60-b3b9-268c795505c1",
           "title": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.",
           "fullFile": "",
           "file": "",
@@ -529,7 +529,7 @@
               "title": "Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "fullTitle": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro. Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "timedOut": null,
-              "duration": 150,
+              "duration": 140,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -539,11 +539,11 @@
               "code": "cy.get('.color').each(function (selectedColor, selectedColorIndex) {\n  cy.wrap(selectedColor).click();\n  cy.get('.color').each(function (color, colorIndex) {\n    if (colorIndex === selectedColorIndex) {\n      expect(color).to.have[\"class\"]('selected');\n    } else {\n      expect(color).not.to.have[\"class\"]('selected');\n    }\n  });\n});",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "2524678d-7328-4f73-bc63-0ce9998cd6c8",
-              "parentUUID": "1980b56f-b4ce-4960-b678-e74dfdcd3f81",
+              "uuid": "f14bf41b-cd79-43cc-a0af-f997ce702d33",
+              "parentUUID": "29ade7ba-d838-4e60-b3b9-268c795505c1",
               "isHook": false,
               "skipped": false
             },
@@ -560,8 +560,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('not.have.class', 'selected');\n  });\n});",
               "err": {},
-              "uuid": "87aa589d-c518-4d95-886e-4a20b6cffbf8",
-              "parentUUID": "1980b56f-b4ce-4960-b678-e74dfdcd3f81",
+              "uuid": "3f80ff34-916e-4cf4-9592-5ecf4e8b3bda",
+              "parentUUID": "29ade7ba-d838-4e60-b3b9-268c795505c1",
               "isHook": false,
               "skipped": true
             }
@@ -569,19 +569,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "2524678d-7328-4f73-bc63-0ce9998cd6c8"
+            "f14bf41b-cd79-43cc-a0af-f997ce702d33"
           ],
           "pending": [],
           "skipped": [
-            "87aa589d-c518-4d95-886e-4a20b6cffbf8"
+            "3f80ff34-916e-4cf4-9592-5ecf4e8b3bda"
           ],
-          "duration": 150,
+          "duration": 140,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f1f1fa07-c2ea-4a1f-93ce-f36bddcfeafb",
+          "uuid": "813ed32d-0b27-417d-9fff-3ce9b4e0516d",
           "title": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada.",
           "fullFile": "",
           "file": "",
@@ -592,7 +592,7 @@
               "title": "Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "fullTitle": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada. Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "timedOut": null,
-              "duration": 185,
+              "duration": 143,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -602,11 +602,11 @@
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).click().should('have.css', 'background-color', BLACK);\n});",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "a230e7a0-29d0-464a-8d1e-33f465d35c3f",
-              "parentUUID": "f1f1fa07-c2ea-4a1f-93ce-f36bddcfeafb",
+              "uuid": "2cb4b84c-22b3-46b8-a71c-a641e8c01355",
+              "parentUUID": "813ed32d-0b27-417d-9fff-3ce9b4e0516d",
               "isHook": false,
               "skipped": false
             },
@@ -623,8 +623,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});",
               "err": {},
-              "uuid": "e36452fd-cccc-4266-bb64-be6989a15eb1",
-              "parentUUID": "f1f1fa07-c2ea-4a1f-93ce-f36bddcfeafb",
+              "uuid": "57536870-8089-40dc-b5e9-a9c1e87ebf68",
+              "parentUUID": "813ed32d-0b27-417d-9fff-3ce9b4e0516d",
               "isHook": false,
               "skipped": true
             },
@@ -641,8 +641,8 @@
               "context": null,
               "code": "var colorToPixelIndexMap = {\n  0: 6,\n  1: 8,\n  2: 16,\n  3: 18\n};\ncy.get('.color').each(function (color, index) {\n  cy.wrap(color).click();\n  var backgroundColor = color.css('background-color');\n  var clickedPixelIndex = colorToPixelIndexMap[index];\n  cy.get('.pixel').eq(clickedPixelIndex).click();\n  cy.get('.pixel').eq(clickedPixelIndex - 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 6).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 6).should('not.have.css', 'background-color', backgroundColor);\n});",
               "err": {},
-              "uuid": "b5d6116f-c605-42ac-af78-ecb2f23c052a",
-              "parentUUID": "f1f1fa07-c2ea-4a1f-93ce-f36bddcfeafb",
+              "uuid": "e73f9856-c63d-4770-9b95-131522d345d9",
+              "parentUUID": "813ed32d-0b27-417d-9fff-3ce9b4e0516d",
               "isHook": false,
               "skipped": true
             }
@@ -650,20 +650,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "a230e7a0-29d0-464a-8d1e-33f465d35c3f"
+            "2cb4b84c-22b3-46b8-a71c-a641e8c01355"
           ],
           "pending": [],
           "skipped": [
-            "e36452fd-cccc-4266-bb64-be6989a15eb1",
-            "b5d6116f-c605-42ac-af78-ecb2f23c052a"
+            "57536870-8089-40dc-b5e9-a9c1e87ebf68",
+            "e73f9856-c63d-4770-9b95-131522d345d9"
           ],
-          "duration": 185,
+          "duration": 143,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "9e5c5fb4-9c84-4938-bd06-b8bef25183c8",
+          "uuid": "4c87c026-b4a4-4c50-b9fd-e6d8f8ae12e4",
           "title": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.",
           "fullFile": "",
           "file": "",
@@ -674,7 +674,7 @@
               "title": "Verifica se o botão tem o `id` denominado `clear-board`",
               "fullTitle": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco. Verifica se o botão tem o `id` denominado `clear-board`",
               "timedOut": null,
-              "duration": 175,
+              "duration": 136,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -684,11 +684,11 @@
               "code": "cy.get('#clear-board').should('be.visible');",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "27f06a87-6eea-4e0c-af03-9586ff39ac59",
-              "parentUUID": "9e5c5fb4-9c84-4938-bd06-b8bef25183c8",
+              "uuid": "219d8d97-fc28-4a58-b2f3-84444242c57e",
+              "parentUUID": "4c87c026-b4a4-4c50-b9fd-e6d8f8ae12e4",
               "isHook": false,
               "skipped": false
             },
@@ -705,8 +705,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#clear-board').should('be.belowOf', palette);\n});\ncy.get('#clear-board').then(function (clearBtn) {\n  cy.get('#pixel-board').should('be.belowOf', clearBtn);\n});",
               "err": {},
-              "uuid": "fea555d8-681e-462d-8468-4e570a3fb37c",
-              "parentUUID": "9e5c5fb4-9c84-4938-bd06-b8bef25183c8",
+              "uuid": "9a04c566-3ba0-4d98-9648-6fdaaf9f4b26",
+              "parentUUID": "4c87c026-b4a4-4c50-b9fd-e6d8f8ae12e4",
               "isHook": false,
               "skipped": true
             },
@@ -723,8 +723,8 @@
               "context": null,
               "code": "cy.get('#clear-board').should('contain.text', 'Limpar');",
               "err": {},
-              "uuid": "9811ba25-3e94-45a0-8c60-11675bec3cac",
-              "parentUUID": "9e5c5fb4-9c84-4938-bd06-b8bef25183c8",
+              "uuid": "dce78f3d-46a1-41c3-a0cd-73e1e9fbab92",
+              "parentUUID": "4c87c026-b4a4-4c50-b9fd-e6d8f8ae12e4",
               "isHook": false,
               "skipped": true
             },
@@ -741,8 +741,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).then(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});\ncy.get('#clear-board').click();\ncy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'background-color', WHITE);\n});",
               "err": {},
-              "uuid": "82f47317-c78f-476d-a53a-de4b6bf46164",
-              "parentUUID": "9e5c5fb4-9c84-4938-bd06-b8bef25183c8",
+              "uuid": "87e294c5-ae02-4266-8093-21f31cbc7f18",
+              "parentUUID": "4c87c026-b4a4-4c50-b9fd-e6d8f8ae12e4",
               "isHook": false,
               "skipped": true
             }
@@ -750,21 +750,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "27f06a87-6eea-4e0c-af03-9586ff39ac59"
+            "219d8d97-fc28-4a58-b2f3-84444242c57e"
           ],
           "pending": [],
           "skipped": [
-            "fea555d8-681e-462d-8468-4e570a3fb37c",
-            "9811ba25-3e94-45a0-8c60-11675bec3cac",
-            "82f47317-c78f-476d-a53a-de4b6bf46164"
+            "9a04c566-3ba0-4d98-9648-6fdaaf9f4b26",
+            "dce78f3d-46a1-41c3-a0cd-73e1e9fbab92",
+            "87e294c5-ae02-4266-8093-21f31cbc7f18"
           ],
-          "duration": 175,
+          "duration": 136,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+          "uuid": "74c9efac-f1b4-4a99-8a97-9f958486b820",
           "title": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.",
           "fullFile": "",
           "file": "",
@@ -775,7 +775,7 @@
               "title": "Verifica se existe um input com o id `board-size`",
               "fullTitle": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário. Verifica se existe um input com o id `board-size`",
               "timedOut": null,
-              "duration": 174,
+              "duration": 146,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -785,11 +785,11 @@
               "code": "cy.get('#board-size').should('be.visible');",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "0b2753ac-ef09-4bcd-99a0-16b9fcaed700",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "3789fdff-b674-4299-bea7-f855d8d76dee",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": false
             },
@@ -806,8 +806,8 @@
               "context": null,
               "code": "cy.get('#generate-board').should('be.visible');",
               "err": {},
-              "uuid": "78e8a171-c61b-43ae-8831-0df542b0568f",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "41334608-37a9-4eb9-a324-e7c3d9d5ed06",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": true
             },
@@ -824,8 +824,8 @@
               "context": null,
               "code": "cy.get('#board-size[type=\\'number\\'][min=\\'1\\']');",
               "err": {},
-              "uuid": "f2e63ae5-604a-43dd-a9c2-0ecae3a9df98",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "837261be-dae9-418f-a2c9-bc9465d4e5fd",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": true
             },
@@ -842,8 +842,8 @@
               "context": null,
               "code": "cy.get('#generate-board').contains(/vqv/i);",
               "err": {},
-              "uuid": "4c2b0685-98e6-484a-82ed-18b6e7a42275",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "e21e3f42-8fa0-4eaf-8333-6c9c0beea435",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": true
             },
@@ -860,8 +860,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#board-size').should('be.belowOf', palette);\n});\ncy.get('#board-size').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "592b95fd-ae58-47bb-af5d-76d807e58a86",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "63d1ad03-4cc0-48a2-8adf-bbe2029a28cb",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": true
             },
@@ -878,8 +878,8 @@
               "context": null,
               "code": "cy.get('#board-size').then(function (board) {\n  cy.get('#generate-board').should('be.onTheRightOf', board);\n});",
               "err": {},
-              "uuid": "9654a656-8a32-40d1-9481-9f5b9e9b4379",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "b751adbe-fa2e-4522-a6ae-39f1dfb638dc",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": true
             },
@@ -896,8 +896,8 @@
               "context": null,
               "code": "var alerted = false;\ncy.on('window:alert', function (msg) {\n  return alerted = msg;\n});\ncy.get('#generate-board').click().then(function () {\n  return expect(alerted).to.match(/Board inválido!/i);\n});",
               "err": {},
-              "uuid": "f4d054aa-7dbc-4f0f-94f8-b9a54e371d5a",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "9edab391-bbac-4065-bbd2-89bd2d20a618",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": true
             },
@@ -914,8 +914,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(10);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 100);",
               "err": {},
-              "uuid": "016471ca-50df-4532-bc05-c83232bcfc56",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "31349a8d-3a1b-405d-925f-c1e9116878cd",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": true
             },
@@ -932,8 +932,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(6);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 36).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "04efb236-58e7-4c32-b254-47caa2a91f35",
-              "parentUUID": "3696dc3f-3853-4015-9046-1629d38d1b4a",
+              "uuid": "af2d055e-e375-41f9-b308-026b6b9ec28e",
+              "parentUUID": "74c9efac-f1b4-4a99-8a97-9f958486b820",
               "isHook": false,
               "skipped": true
             }
@@ -941,26 +941,26 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "0b2753ac-ef09-4bcd-99a0-16b9fcaed700"
+            "3789fdff-b674-4299-bea7-f855d8d76dee"
           ],
           "pending": [],
           "skipped": [
-            "78e8a171-c61b-43ae-8831-0df542b0568f",
-            "f2e63ae5-604a-43dd-a9c2-0ecae3a9df98",
-            "4c2b0685-98e6-484a-82ed-18b6e7a42275",
-            "592b95fd-ae58-47bb-af5d-76d807e58a86",
-            "9654a656-8a32-40d1-9481-9f5b9e9b4379",
-            "f4d054aa-7dbc-4f0f-94f8-b9a54e371d5a",
-            "016471ca-50df-4532-bc05-c83232bcfc56",
-            "04efb236-58e7-4c32-b254-47caa2a91f35"
+            "41334608-37a9-4eb9-a324-e7c3d9d5ed06",
+            "837261be-dae9-418f-a2c9-bc9465d4e5fd",
+            "e21e3f42-8fa0-4eaf-8333-6c9c0beea435",
+            "63d1ad03-4cc0-48a2-8adf-bbe2029a28cb",
+            "b751adbe-fa2e-4522-a6ae-39f1dfb638dc",
+            "9edab391-bbac-4065-bbd2-89bd2d20a618",
+            "31349a8d-3a1b-405d-925f-c1e9116878cd",
+            "af2d055e-e375-41f9-b308-026b6b9ec28e"
           ],
-          "duration": 174,
+          "duration": 146,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "4eed04f1-b964-4e94-9c49-60921d1825b2",
+          "uuid": "a33acb1f-8343-4918-9ee1-2eb63d0adaaa",
           "title": "11 - Limite o tamanho mínimo e máximo do board.",
           "fullFile": "",
           "file": "",
@@ -971,7 +971,7 @@
               "title": "Verifica se a altura máxima do board é 50",
               "fullTitle": "11 - Limite o tamanho mínimo e máximo do board. Verifica se a altura máxima do board é 50",
               "timedOut": null,
-              "duration": 172,
+              "duration": 156,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -981,11 +981,11 @@
               "code": "cy.get('#board-size').clear().type(50);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "bce39888-2915-4215-9b6a-ee56d773aab7",
-              "parentUUID": "4eed04f1-b964-4e94-9c49-60921d1825b2",
+              "uuid": "12e6970f-8a4e-44b2-8c30-04c6b981eb42",
+              "parentUUID": "a33acb1f-8343-4918-9ee1-2eb63d0adaaa",
               "isHook": false,
               "skipped": false
             },
@@ -1002,8 +1002,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(4);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "fef586be-83d4-454b-980f-9871d6096167",
-              "parentUUID": "4eed04f1-b964-4e94-9c49-60921d1825b2",
+              "uuid": "4fa176fd-b8cc-456f-9d51-00e0799ae0b5",
+              "parentUUID": "a33acb1f-8343-4918-9ee1-2eb63d0adaaa",
               "isHook": false,
               "skipped": true
             },
@@ -1020,8 +1020,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(51);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {},
-              "uuid": "70f928a4-c31e-41ad-b97a-40fb74a91a58",
-              "parentUUID": "4eed04f1-b964-4e94-9c49-60921d1825b2",
+              "uuid": "f94485b4-fcca-45e5-b870-8c652acbca69",
+              "parentUUID": "a33acb1f-8343-4918-9ee1-2eb63d0adaaa",
               "isHook": false,
               "skipped": true
             }
@@ -1029,20 +1029,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "bce39888-2915-4215-9b6a-ee56d773aab7"
+            "12e6970f-8a4e-44b2-8c30-04c6b981eb42"
           ],
           "pending": [],
           "skipped": [
-            "fef586be-83d4-454b-980f-9871d6096167",
-            "70f928a4-c31e-41ad-b97a-40fb74a91a58"
+            "4fa176fd-b8cc-456f-9d51-00e0799ae0b5",
+            "f94485b4-fcca-45e5-b870-8c652acbca69"
           ],
-          "duration": 172,
+          "duration": 156,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "333b3015-8038-4dcc-a806-1dfa9668a93f",
+          "uuid": "7374df89-676b-40d3-9e8d-0e95b0476310",
           "title": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.",
           "fullFile": "",
           "file": "",
@@ -1053,7 +1053,7 @@
               "title": "Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "fullTitle": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página. Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "timedOut": null,
-              "duration": 174,
+              "duration": 167,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1063,11 +1063,11 @@
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {
                 "message": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
-                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'\n    at cypressErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:37143/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:37143/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:37143/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:37143/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:37143/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:37143/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:37143/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:37143/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:37143/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:37143/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:37143/__cypress/runner/cypress_runner.js:162024:14)",
+                "estack": "CypressError: cy.visit() failed trying to load:\n\n./index.html\n\nWe failed looking for this file at the path:\n\n/home/lucas/Projects/sd-013-a-project-pixels-art/index.html\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'\n    at cypressErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149934:9)\n    at throwErr (http://localhost:44221/__cypress/runner/cypress_runner.js:149867:11)\n    at Object.throwErrByPath (http://localhost:44221/__cypress/runner/cypress_runner.js:149915:3)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138814:34\n    at visitFailedByErr (http://localhost:44221/__cypress/runner/cypress_runner.js:138327:12)\n    at http://localhost:44221/__cypress/runner/cypress_runner.js:138795:22\n    at tryCatcher (http://localhost:44221/__cypress/runner/cypress_runner.js:167415:23)\n    at Promise._settlePromiseFromHandler (http://localhost:44221/__cypress/runner/cypress_runner.js:165351:31)\n    at Promise._settlePromise (http://localhost:44221/__cypress/runner/cypress_runner.js:165408:18)\n    at Promise._settlePromise0 (http://localhost:44221/__cypress/runner/cypress_runner.js:165453:10)\n    at Promise._settlePromises (http://localhost:44221/__cypress/runner/cypress_runner.js:165528:18)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueue (http://localhost:44221/__cypress/runner/cypress_runner.js:162140:16)\n    at Async../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162150:10)\n    at Async.drainQueues (http://localhost:44221/__cypress/runner/cypress_runner.js:162024:14)",
                 "diff": null
               },
-              "uuid": "f999f014-71d5-46d9-9110-9de839680800",
-              "parentUUID": "333b3015-8038-4dcc-a806-1dfa9668a93f",
+              "uuid": "8cc9b8cb-86f6-4d71-9227-e961f8df163d",
+              "parentUUID": "7374df89-676b-40d3-9e8d-0e95b0476310",
               "isHook": false,
               "skipped": false
             },
@@ -1084,8 +1084,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  expect(previousColors[0]).to.eq(BLACK);\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors[0]).to.eq(BLACK);\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {},
-              "uuid": "a41bb1f9-4259-4f2c-8209-f9392362156c",
-              "parentUUID": "333b3015-8038-4dcc-a806-1dfa9668a93f",
+              "uuid": "11dd5073-a552-42c9-927c-fb84a65ea056",
+              "parentUUID": "7374df89-676b-40d3-9e8d-0e95b0476310",
               "isHook": false,
               "skipped": true
             }
@@ -1093,13 +1093,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f999f014-71d5-46d9-9110-9de839680800"
+            "8cc9b8cb-86f6-4d71-9227-e961f8df163d"
           ],
           "pending": [],
           "skipped": [
-            "a41bb1f9-4259-4f2c-8209-f9392362156c"
+            "11dd5073-a552-42c9-927c-fb84a65ea056"
           ],
-          "duration": 174,
+          "duration": 167,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
