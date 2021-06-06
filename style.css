@@ -2,22 +2,22 @@ body {
   text-align: center;
   margin: 0;
 }
-
-.pixel {
-  background-color: white;
-}
-
-.color,
-.pixel {
+.color {
   display: inline-block;
   width: 40px;
   height: 40px;
   border: 1px solid black;
 }
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: table-cell;
+}
 
 #pixel-board {
   margin-top: 0px;
-  display: inline-block;
+  display: table;
   text-align: center;
 }
 
@@ -25,4 +25,8 @@ body {
   width: 90px;
   height: 45px;
   border-radius: 5px;
+}
+#tabela {
+  display: inline-block;
+  margin-top: 50px;
 }
